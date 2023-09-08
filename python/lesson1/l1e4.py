@@ -5,7 +5,6 @@ carol_candies = 109
 
 # Your code goes here! Replace the right-hand side of this assignment with an expression
 # involving alice_candies, bob_candies, and carol_candies
-to_smash = (alice_candies + bob_candies + carol_candies)%3
-
-# Check your answer
-q4.check()
+#to_smash = -1
+to_smash=(alice_candies+bob_candies+carol_candies)%3
+print(to_smash)
